@@ -72,7 +72,7 @@ const TableResult = (props: any) => {
     const[dataTable, setDataTable] = useState([]);
     const isName = props.name ? false : true;
     const isType = props.type ? false : true;
-    
+
     const {
         data: pData, 
         loading: pLoading, 
