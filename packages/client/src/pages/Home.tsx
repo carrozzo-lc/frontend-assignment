@@ -83,7 +83,7 @@ const Home = () => {
             <Content className="site-layout" style={{ padding: '0 50px', marginTop: 25, marginBottom: 50 }}>
             
                 <Form form={formName} layout="inline" name="control-hooks" onFinish={onFinishName}>
-                    <Form.Item name="name" label="Name" rules={[{ required: true }]}>
+                    <Form.Item name="name" label="Name">
                         <Input style={{ width: 190 }} placeholder="Insert a Pokemon name" onChange={onNameChange}/>
                     </Form.Item>
                     <Form.Item shouldUpdate={true}>
@@ -103,7 +103,7 @@ const Home = () => {
                 </Form>
                 <div style={{ margin: '20px 0' }}></div>   
                 <Form layout="inline" form={formType} name="control-hooks" onFinish={onFinishType}>
-                    <Form.Item name="type" label="Type" rules={[{ required: true }]}>
+                    <Form.Item name="type" label="Type">
                         <Select
                             style={{ width: 196 }}
                             placeholder="Select a Pokemon type"
