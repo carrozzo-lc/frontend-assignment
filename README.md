@@ -1,9 +1,23 @@
 # Assignment for Frontend Position
 
-This project is powered by `yarn` and workspaces.
+## Introduction
+
+For this assignment what you will build is a simple page (and a server app) for querying and filtering a dataset of Pokémons.  
+The Pokèmons dataset is harcoded inside the project.
+
+The server app will be powered by Node.js, `typescript` and [`apollo-server`](https://www.apollographql.com/docs/apollo-server/) and it is partially implemented.  
+The client app will be powered by `typescript`, `react`, [`apollo-client`](https://www.apollographql.com/docs/react/) and [`antd`](https://ant.design/) and you will build it from scratch.
+
+You can add other libraries if needed; if you are not confident with some of this libraries you can pick alternatives.  
+For the client side app we recommend to use `webpack`.
+
+## App set up
+
+This project is powered by `yarn` and workspaces.  
 Once cloned this project can be installed with `yarn install`.  
-You can run scripts on client with `yarn workspace @frontend-assignment/client <command>`, and on server with `yarn workspace @frontend-assignment/server <command>`.  
+
 For the server you can start the the app with `yarn workspace @frontend-assignment/server start`.
+For the client you can start the the app with `yarn workspace @frontend-assignment/client start`.
 
 ## Tasks Done for the assignment
 
