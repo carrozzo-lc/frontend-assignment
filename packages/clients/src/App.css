@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+
+.ant-layout-header {
+    background-color: #ffcb05;
+}
+
+.ant-layout-content {
+}
+
+.ant-layout-footer {
+    background-color: #3c5aa6;
+    color: white;
+}
+
+.ant-form .ant-btn {
+    margin-right: 8px;
+}
