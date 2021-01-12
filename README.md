@@ -16,11 +16,9 @@ For the client side app we recommend to use `webpack`.
 This project is powered by `yarn` and workspaces.  
 Once cloned this project can be installed with `yarn install`.  
 
-For the server you can start the the app with `yarn workspace @frontend-assignment/server start`.
+For the server you can start the the app with `yarn workspace @frontend-assignment/server start`, and for the client you can start the the app with `yarn workspace @frontend-assignment/client start`.
 
-For the client you can start the the app with `yarn workspace @frontend-assignment/client start`.
-
-## Tasks Done for the assignment
+## Tasks
 
 ### Server side
 
